@@ -1,0 +1,104 @@
+@media only screen and (max-width:943px) {
+    
+    /** Navegation Menu **/
+
+    .btn-menu{
+        display: block !important;
+    }
+    .btn-menu img{
+        width: 45px;
+        height: 45px;
+        line-height: 60px;
+    }
+    .menu .list-container{
+        position:absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background:url(../assets/images/d-2\(optional\).png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .menu .list-container .lists{
+       display:block !important;
+    }
+    .menu .list-container .lists li{margin:10px 0px;}
+    .menu .list-container .lists li a{
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    /** Img Header **/
+    .img-header .header-text h1{font-size: 20px !important;}
+    .img-header .header-text hr{
+        width: 50% !important;
+        margin:auto !important;
+    } 
+
+    /** Problemas Ambientales **/
+    .p-ambiente .a-text h3{font-size: 25px !important;}
+    .p-ambiente .a-text p{
+        font-size: 15px !important;
+        line-height: 35px !important;
+    }
+
+    /** Environment Problem **/
+    .problem-title h3{
+        font-size: 25px !important;
+    }
+    .problem-text p{
+        font-size: 15px !important;
+    }
+
+    /** Oceans **/
+    .oceans-text p{
+        font-size: 15px !important;
+        line-height: 30px !important;
+    }
+    .oceans-title{padding-left: 50px !important;}
+    .oceans-title h3{
+        font-size:30px !important;
+        text-align: center !important;
+    }
+    
+    /** Biodiversidad **/
+    .bio-container .img-bio img{
+       width: 100%;
+       height: 100% !important;
+       object-fit: cover !important;
+    }
+    .bio-container .bio-text{margin-top:0px !important;}
+    .bio-container .bio-text p{
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        line-height: 30px !important;
+    }
+    .text-bio-polar p{
+        font-size: 20px !important;
+    }
+
+    /** Solar Panel **/
+    .solar-panel .solar-container .solar-text h3{
+        font-size: 25px !important;
+    }
+    .solar-panel .solar-container .solar-text p{
+        font-size: 15px !important;
+        line-height: 30px !important;
+    }
+
+    /** Consejo **/
+    .consejo-text ul h3{
+        font-size: 20px !important;
+    }
+    .consejo-text ul li p{
+        font-size: 15px !important;
+    }
+
+
+}

@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
+@import url(../css/tablet.css);
+@import url(../css/mobile.css);
+@import url(../css/animations.css);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/** Navegation Menu **/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:9999;
+}
+.btn-menu{display: none;}
+.menu{
+    width: 100%;
+    height: 60px;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .list-container .lists{display: flex;}
+.menu .list-container .lists li{list-style: none;}
+.menu .list-container .lists li a{
+    text-decoration: none;
+    color: #252a34;
+    margin:0px 10px;
+    transition: 0.3s;
+}
+.menu .list-container .lists li a:hover{
+    color: #1eb2a6;
+}
+
+
+/** Img Header **/
+.img-header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../assets/images/header.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-header .waves-effect{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+}
+.img-header .header-text{
+    width: 90%;
+    margin:auto;
+    background:rgba(0,0,0,0.4);
+    padding:20px;
+    border-radius: 10px;
+    animation: zoom 1s ease-in;
+}
+.img-header .header-text h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.img-header .header-text hr{
+    border: none;
+    width: 100%;
+    height: 2px;
+    background:#fff;
+    margin:10px 0px;
+}
+.img-header .header-text p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/** Problemas Ambientales **/
+.p-ambiente{
+    width: 100%;
+}
+.p-ambiente .a{
+    position: relative;
+    width: 90%;
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p-ambiente .img-a{
+    width: 40%;
+}
+.p-ambiente .img-a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 50px;
+}
+.p-ambiente .a-text{
+    width: 60%;
+    padding-left:20px;
+}
+.p-ambiente .a-text h3{
+    font-size: 35px;
+    text-align: center;
+    color: #252a34;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.p-ambiente .a-text p{
+    font-size: 17px;
+    line-height: 40px;
+}
+
+/** Environment Problem **/
+.problem{
+    width: 100%;
+    background:url(../assets/images/b.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: soft-light;
+}
+.problem .container-problem{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.problem-title{width: 50%; margin-right: 30px;}
+.problem-title h3{
+    position: relative;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.problem-text{
+    width: 50%;
+    background:rgba(0,0,0,0.9);
+    padding:10px ;
+    border-radius: 10px;
+}
+.problem-text p{
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/** Oceans **/
+.oceans{
+    width: 100%;
+    height: 100%;
+    background:url(../assets/images/c.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: soft-light;
+}
+.container-oceans{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oceans-text{
+    width: 50%;
+    background:rgba(0,0,0,0.9);
+    padding:20px ;
+    border-radius: 10px;
+}
+.oceans-text p{
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+}
+.oceans-title{width: 50%; padding-left: 100px;}
+.oceans-title h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/** Biodiversidad **/
+.biodiversidad{
+    width: 100%;
+}
+.bio-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bio-container .img-bio{
+    width: 50%;
+    height: 100vh;
+}
+.bio-container .img-bio img{
+    width: 100%;
+    height: 100vh;
+}
+.bio-container .bio-text{
+    width: 50%;
+    margin-top: 100px;
+    padding:50px;
+}
+.bio-container .bio-text p{
+    margin:20px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.bio-polar{
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/d-1.png);
+    background-position: center;
+    background-size: cover;
+}
+.text-bio-polar {
+    width: 80%;
+    margin:auto;
+}
+.text-bio-polar p{
+    font-size: 25px;
+    color: #252a34;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+/** Solar Panel **/
+.solar-panel{
+    width: 100%;
+    height: 100%;
+}
+.solar-panel .solar-container{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.solar-panel .solar-container .solar-text{
+    width: 60%;
+    margin-right:50px;
+}
+.solar-panel .solar-container .solar-text h3{
+    font-size: 30px;
+    color: #252a34;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.solar-panel .solar-container .solar-text p{
+    font-size: 19px;
+    line-height: 40px;
+}
+.solar-panel .solar-container .solar-img{
+    width: 40%;
+}
+.solar-panel .solar-container .solar-img img{
+    width: 100%;
+}
+
+/** Consejo - 1 **/
+.consejo-1{
+  width: 100%;
+}
+.consejo-container{
+    position: relative;
+    width: 90%;
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.consejo-img{
+    width: 40%;
+}
+.consejo-img img{
+    width: 100%;
+    object-fit: cover;
+    padding-right: 50px;
+}
+.consejo-text{
+    width: 60%;
+    padding:0px 50px;
+}
+.consejo-text ul li{
+    margin:20px 0px;
+}
+.consejo-text ul h3{
+    font-size: 25px;
+    color: #252a34;
+    text-transform: uppercase;
+}
+.consejo-text ul li p{
+    font-size: 18px;
+    color: #252a34;
+}
+
+/** Footer **/
+.footer{
+    position: relative;
+   width: 100%;
+   height: 100%;
+   background:url(../assets/images/footer.png);
+   background-size: cover;
+   background-position: center;
+   background-color: rgba(0,0,0,0.1);
+   background-blend-mode: soft-light;
+}
+.footer .frase{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .frase h2{
+    color: #fff;
+    font-weight: 400;
+    font-size:40px;
+    text-align: center;
+}
+.footer .go-top{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height:60px;
+    text-align: center;
+    background: #f49c74;
+    border:3px solid #cb4e5c;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer .go-top img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+
+
+

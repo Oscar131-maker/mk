@@ -1,0 +1,114 @@
+@media only screen and (max-width:653px) {
+   
+    /** Navegation Menu **/
+    .menu .list-container .lists li a{
+        font-size: 20px !important ;
+    }
+
+    /** p ambiente **/
+    .p-ambiente .a{
+        display: block !important;
+    }
+    .p-ambiente .img-a{
+        width: 30% !important;
+    }
+    .p-ambiente .img-a img{
+        margin:0px 140%;
+    }
+    .p-ambiente .a-text{
+        width: 100% !important;
+        height: 70% !important;
+    }
+    .p-ambiente .a-text h3{
+        margin-bottom: 0px !important;
+    }
+
+    /** Environment **/
+    .problem .container-problem{
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    .problem-title{
+        width: 100% !important; 
+        margin-right: 0px !important;
+    }
+    .problem-text{
+        width: 100% !important;
+    }
+    .problem-title h3{
+        text-align: center;
+    }
+
+    /** Oceans **/
+    .container-oceans{
+        flex-direction: column;
+        justify-content:center !important;
+    }
+    .oceans-text{width: 100% !important;}
+    .oceans-title{
+        width: 100% !important;
+        padding-left: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    /** Biodiversidad **/
+    .biodiversidad{
+        width: 100%;
+        height: 100%;
+        background:url(../assets/images/d.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .bio-container{
+        justify-content: center !important;
+    }
+    .bio-container .img-bio{width: 0% !important;}
+    .bio-container .img-bio img{display: none;}
+    .bio-container .bio-text{
+        width: 90% !important;
+        margin: auto;
+        background:rgba(0,0,0,0.7);
+        margin-top:100px !important;
+        padding:20px !important;
+        border-radius: 10px;
+    }
+    .bio-container .bio-text p{color: #fff !important;}
+    .text-bio-polar p{
+        font-size: 20px !important;
+    }
+    
+    /** Solar Panel **/
+    .solar-panel .solar-container{
+        width: 100% !important;
+        height: 100vh !important;
+        background:url(../assets/images/solar-panel.svg);
+        background-position: center;
+        background-size: cover;
+        justify-content: center !important;
+    }
+    .solar-panel .solar-container .solar-img{
+        display: none !important;
+    }
+    .solar-panel .solar-container .solar-text{
+        width: 85% !important;
+        margin-right: 0 !important;
+    }
+
+    /** Consejo **/
+    .consejo-container{
+        width: 100%;
+        height: 100%;
+        background: url(../assets/images/environment-1.svg);
+        background-position: center;
+        background-size: cover;
+    }
+    .consejo-img{width: 0% !important;}
+    .consejo-text{
+        width: 95% !important;
+    }
+
+}
+
+@media only screen and (max-width:437px) {
+    .img-header .waves-effect{display:none !important;}
+}
